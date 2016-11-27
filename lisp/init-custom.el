@@ -5,8 +5,8 @@
 (electric-pair-mode t)
 
 ;; add ibuffer
-(global-set-key (kbd "C-x C-b") 'ibuffer)
-(autoload 'ibuffer "ibuffer" "List buffers." t)
+;;(global-set-key (kbd "C-x C-b") 'ibuffer)
+;;(autoload 'ibuffer "ibuffer" "List buffers." t)
 
 ;; command M-;
 (defun comment-dwim-line (&optional arg)

@@ -1,7 +1,8 @@
 ;; Install Packages
 
 (defvar myPackages
-  '(elpy
+  '(better-defaults
+    elpy
     flycheck
 ))
 
