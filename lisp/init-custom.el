@@ -1,5 +1,6 @@
 ;; Setting English Font
-(set-face-attribute 'default nil :font "Monaco 13")
+(setq default-font "Monaco 13")
+(set-face-attribute 'default nil :font default-font)
 
 ;; auto complete parentheses
 (electric-pair-mode t)
