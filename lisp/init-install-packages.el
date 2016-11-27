@@ -4,6 +4,7 @@
   '(better-defaults
     elpy
     flycheck
+    multiple-cursors
 ))
 
 (mapc #'(lambda (package)

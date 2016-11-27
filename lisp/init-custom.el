@@ -5,6 +5,12 @@
 ;; auto complete parentheses
 (electric-pair-mode t)
 
+;;----------------------------------------------------------------------------
+;; Handy key bindings
+;;----------------------------------------------------------------------------
+(global-set-key (kbd "C-.") 'set-mark-command)
+(global-set-key (kbd "C-x C-.") 'pop-global-mark)
+
 ;; add ibuffer
 ;;(global-set-key (kbd "C-x C-b") 'ibuffer)
 ;;(autoload 'ibuffer "ibuffer" "List buffers." t)
