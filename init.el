@@ -33,4 +33,4 @@
 (require 'init-elpy)
 (require 'init-flycheck)
 (require 'init-multiple-cursors)
-(require 'init-nav)
+(require 'init-neotree)
