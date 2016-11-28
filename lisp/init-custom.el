@@ -2,6 +2,11 @@
 (setq default-font "Monaco 13")
 (set-face-attribute 'default nil :font default-font)
 
+;; set default
+(setq-default initial-scratch-message
+              (concat ";; Happy hacking, " user-login-name " - Emacs ♥ you!\n\n"))
+
+
 ;; auto complete parentheses
 (electric-pair-mode t)
 
@@ -10,6 +15,16 @@
 ;;----------------------------------------------------------------------------
 (global-set-key (kbd "C-.") 'set-mark-command)
 (global-set-key (kbd "C-x C-.") 'pop-global-mark)
+
+;; disable auto backup
+(setq make-backup-files nil)
+
+;; split window vertical
+
+;; split window move point
+(defadvice split-window (after move-point-to-new-window activate)
+  "Moves the point to the newly created window after splitting."
+  (other-window 1))
 
 ;; add ibuffer
 ;;(global-set-key (kbd "C-x C-b") 'ibuffer)
