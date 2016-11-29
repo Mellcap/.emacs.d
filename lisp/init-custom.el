@@ -19,6 +19,10 @@
 ;; disable auto backup
 (setq make-backup-files nil)
 
+;; disable ido merge "looking in other directories"
+(setq ido-auto-merge-work-directories-length -1)
+;; Use "C-x C-f C-f" to normal find mode
+
 ;; split window vertical
 
 ;; split window move point
