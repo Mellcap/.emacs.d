@@ -23,6 +23,9 @@
 (setq ido-auto-merge-work-directories-length -1)
 ;; Use "C-x C-f C-f" to normal find mode
 
+;; set cursor to a vertical bar
+(setq-default cursor-type 'bar)
+
 ;; split window vertical
 
 ;; split window move point
