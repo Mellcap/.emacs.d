@@ -29,9 +29,9 @@
 ;; split window vertical
 
 ;; split window move point
-(defadvice split-window (after move-point-to-new-window activate)
-  "Moves the point to the newly created window after splitting."
-  (other-window 1))
+;; (defadvice split-window (after move-point-to-new-window activate)
+;;   "Moves the point to the newly created window after splitting."
+;;   (other-window 1))
 
 ;; add ibuffer
 ;;(global-set-key (kbd "C-x C-b") 'ibuffer)
