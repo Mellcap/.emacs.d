@@ -26,6 +26,9 @@
 ;; set cursor to a vertical bar
 (setq-default cursor-type 'bar)
 
+;; xml indent 4 spaces
+(setq nxml-child-indent 4 nxml-attribute-indent 4)
+
 ;; split window vertical
 
 ;; split window move point
