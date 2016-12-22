@@ -1,2 +1,5 @@
+*.pyc
+/auto-save-list/*
 /ido.last
 /dump.rdb
+*.DS_Store
