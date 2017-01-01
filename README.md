@@ -1,5 +1,7 @@
 # emacs.d
 
+## An emacs config for Pythoner
+
 Hi, I am a pythoner who use emacs everyday.
 
 At first I fork the [purcell's config](https://github.com/Mellcap/purcell_emacs_config)
