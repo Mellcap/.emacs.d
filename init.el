@@ -31,6 +31,6 @@
 (require 'init-elpa)
 (require 'init-install-packages)
 (require 'init-elpy)
-(require 'init-flycheck)
+;; (require 'init-flycheck)
 (require 'init-multiple-cursors)
 (require 'init-neotree)
