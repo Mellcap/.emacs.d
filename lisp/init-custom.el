@@ -58,4 +58,19 @@ when it inserts comment at the end of the line. "
 
 (global-set-key "\M-;" 'comment-dwim-line)
 
+;; display time
+(display-time-mode 1)
+
+;; set y means yes
+(fset 'yes-or-no-p 'y-or-n-p)
+
+;; set newline at final
+(setq require-final-newline t)
+
+;; 当光标在行尾上下移动的时候，始终保持在行尾。
+(setq track-eol t)
+
+;;把C-j绑定到”到达指定行上”(goto-line)
+(global-set-key (kbd "C-j") 'goto-line)
+
 (provide 'init-custom)
