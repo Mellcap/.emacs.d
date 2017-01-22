@@ -26,6 +26,7 @@
 (require 'init-osx-keys)
 (require 'init-gui-frames)
 (require 'init-custom)
+(require 'init-orgmode)
 (require 'atom-one-dark)
 
 (require 'init-elpa)
